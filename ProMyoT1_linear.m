@@ -48,9 +48,8 @@ hearbeats = 1; % per image
 
 % Inversion RF pulse
 validTypeInv =  'HS1_Kellman2013_10';
-[rf_inv, gz_inv] = mr.makeHyperSecPulse(inv_angle*pi/180,'Duration',4.75e-3,...
-    'SliceThickness',thick*1e-3,'apodization',0.5,'timeBwProduct',4,'system',sys,...
-    'use', 'inversion', 'TypeInv',validTypeInv);
+rf_inv = mr.makeHyperSecPulse(inv_angle*pi/180,'Duration',4.75e-3,...
+    'system',sys,  'use', 'inversion', 'TypeInv',validTypeInv);
 
 
 
