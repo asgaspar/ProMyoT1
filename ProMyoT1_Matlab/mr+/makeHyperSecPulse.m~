@@ -50,8 +50,18 @@ if strncmp(opt.TypeInv, validTypeInv{1}, 18) %Kellman 2013
     signal = A0*signal_normal; %*1524
 end
 
+
+BW = opt.timeBwProduct/opt.duration;
+
 N = round(opt.duration/1e-6);
 t = (1:N)*opt.system.rfRasterTime;
+tt = t - opt.duration*opt.centerpos;
+
+if ~strncmp(opt.TypeInv, validTypeInv{4}, 18)
+    signal0 = (sech(Beta*tt)).^(1-1i*miu); % HyperSec function
+    signal_normal = signal0;
+    signal = A0*signal_normal; %*1524
+end
 
 
 rf.type = 'rf';
