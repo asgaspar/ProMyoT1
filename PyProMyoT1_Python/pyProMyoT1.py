@@ -434,4 +434,4 @@ if __name__ == '__main__':
     # Plot complete sequence
     seq.plot()
 
-    seq.write('pyProMyoT1_googlecolab.seq')
+    seq.write('pyProMyoT1.seq')
