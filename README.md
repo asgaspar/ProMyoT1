@@ -26,7 +26,7 @@ ProMyoT1 can be build with Matlab or Python:
 	* **ProMyoT1**  can be build from code in Matlab_ProMyoT1 folder. Files in mr+ folder should be added Pulseq mr+ folder. 
 * **Python**:  
 	* **PyProMyoT1** can be build from code in Python_pyProMyoT1 folder. This requires pypulseq [[2]](#references) . 
-	* A tutorial notebook for pyProMyoT1 is available at  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19MruYk0W0AMulph78q_yqywCemuLK0jW?usp=sharing)
+	* A tutorial notebook for pyProMyoT1 is available at  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ANG13/ProMyoT1/blob/main/pyProMyoT1.ipynb)
 
 
 ## Requirements
