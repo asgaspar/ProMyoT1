@@ -431,7 +431,7 @@ if __name__ == '__main__':
     print('---------------  Done  ---------------')
     print('First Inversion Time', TI_Vector_real, 's')
 
-    # Plot complete sequence
+    #Plot complete sequence
     seq.plot()
 
     seq.write('pyProMyoT1.seq')
